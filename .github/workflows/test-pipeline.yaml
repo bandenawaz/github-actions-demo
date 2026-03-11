@@ -1,0 +1,10 @@
+name: My First Test Pipeline
+
+on: push
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "This is my First Github Actions Pipeline"
